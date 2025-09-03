@@ -13,7 +13,7 @@
       // Hide generate button
       generateBtn.style.display = "none";
 
-      // Generate QR code with larger size
+      // it Genarate Qr code inside the canva area
       QRCode.toCanvas(canvas, link, { width: 256 }, function (error) {
         if (error) {
           console.error(error);
